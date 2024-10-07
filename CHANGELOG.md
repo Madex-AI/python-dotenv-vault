@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [Unreleased](https://github.com/dotenv-org/python-dotenv-vault/compare/v0.6.4...master)
 
-## 0.6.4
+## 0.6.6
 
 ### Changed
 
