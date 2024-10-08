@@ -1,6 +1,6 @@
 __title__ = "python-dotenv-vault"
 __description__ = "Decrypt .env.vault file."
-__url__ = "https://github.com/dotenv-org/python-dotenv-vault"
+__url__ = "https://github.com/Madex-AI/python-dotenv-vault"
 __version__ = "0.6.6"
 __author__ = "dotenv"
 __author_email__ = "mot@dotenv.org"

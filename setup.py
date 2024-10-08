@@ -13,7 +13,7 @@ def read_files(files):
             data.append(f.read())
     return "\n".join(data)
 
-readme = read_files(['README.md', 'CHANGELOG.md'])
+readme = read_files(['CHANGELOG.md'])
 
 setup(
     name='python-dotenv-vault',
