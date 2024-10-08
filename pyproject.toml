@@ -1,3 +1,18 @@
+[tool.poetry]
+name = "python-dotenv-vault"
+version = "0.6.5"
+description = "Decrypt .env.vault file."
+authors = ["dotenv <mot@dotenv.org>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dotenv_vault", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cryptography = "^43.0.1"
+python-dotenv = "^1.0.1"
+
+
 [build-system]
-requires = ["setuptools>=61.0.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
